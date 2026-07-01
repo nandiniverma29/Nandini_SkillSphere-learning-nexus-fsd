@@ -1,0 +1,67 @@
+Day 3 (GIT)
+Date: 01 July 2026
+________________________________________
+Git Commands Learned
+1. Repository Initialization & Setup
+•	git init → Initialize a new Git repository
+•	git clone → Copy a remote repository to local system
+•	git config → Set Git configuration like username and email
+________________________________________
+2. Checking Status & History
+•	git status → Shows current changes and staged/unstaged files
+•	git log → Displays commit history of the repository
+________________________________________
+3. Staging & Saving Changes
+•	git add → Stage changes for commit
+•	git commit → Save changes to local repository
+________________________________________
+4. Remote Repository Management
+•	git remote → Manage remote repository connections
+•	git push → Upload local commits to remote repository
+•	git pull → Fetch and merge changes from remote
+•	git fetch → Download latest changes without merging
+________________________________________
+5. Branching & Navigation
+•	git branch → Create or view branches
+•	git checkout → Switch between branches or restore files
+•	git switch → Modern way to switch branches
+________________________________________
+6. Advanced Git Concepts
+•	git merge → Combine changes from another branch
+•	git rebase → Reapply commits on top of another base
+•	git cherry-pick → Apply a specific commit from another branch
+________________________________________
+7. Undo & Temporary Storage
+•	git stash → Save uncommitted changes temporarily
+•	git reset → Unstage or undo commits
+•	git revert → Create a new commit to undo changes
+________________________________________
+Concept Comparison (Important Learning)
+Git status vs Git log
+•	git status → Shows working directory state (what changed)
+•	git log → Shows commit history
+________________________________________
+Git checkout vs Git switch
+•	git checkout → Old command (switch branches + restore files)
+•	git switch → New, safer command (only for branch switching)
+________________________________________
+Git init vs Git clone
+•	git init → Create a new empty repository
+•	git clone → Copy existing repository from remote
+________________________________________
+Git rebase
+•	Used to maintain a clean linear commit history
+•	Moves your commits on top of another branch instead of merging
+________________________________________
+Git Fork (Concept)
+•	A fork creates a personal copy of someone else’s repository on GitHub
+•	Used in open-source contributions
+•	You can modify freely and later create a pull request
+________________________________________
+Key Takeaways
+•	Git helps in version control and collaboration
+•	Branching allows parallel development
+•	Remote commands connect local repo to GitHub
+•	Rebase helps maintain clean commit history
+________________________________________
+
